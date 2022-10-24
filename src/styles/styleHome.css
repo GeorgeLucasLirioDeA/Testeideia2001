@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: auto;
+  box-shadow: none;
+  text-decoration: none;
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  background-color: #444242;
+}
+
+.header {
+  margin-right: 15px;
+  justify-content: space-between;
+  display: flex;
+  height: auto;
+}
+
+.boxLanguage {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  background-color: white;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 50px;
+}
+
+h4 {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  line-height: 14.06px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #444242;
+
+  padding: 12px 10px;
+  margin: 0;
+}
+
+.flag {
+  width: 24px;
+  height: 24px;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.dropDown {
+  width: 10px;
+  height: 5px;
+  margin-left: 0;
+  margin-right: 15.33px;
+}
+
+.hamburguerMenu {
+  width: 26px;
+  height: 20px;
+  padding-top: 22px;
+  margin: 0 15px 0px 0;
+}
+
+.logo {
+  width: 240.52px;
+  height: 75px;
+  margin-top: 86px;
+  margin-bottom: 50px;
+}
+
+.links {
+  height: auto;
+}
+
+a {
+
+  width: 265px;
+  display: block;
+  border-radius: 50px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  cursor: pointer;
+
+  width: 265px;
+  height: 50px;
+
+  border: 1px solid #FA9401;
+  background-color: #444242;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  background-color: #FA9401;
+  transition: 500ms;
+}
+
+.icons {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  margin-right: 11px;
+}
+
+.textBtn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+
+  color: #FFFFFF;
+}
+
+.socialLinks {
+  margin-top: 88px;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 7.5px;
+}
+
+/*Celular horizontal*/
+@media (max-height: 360px) {
+  .logo {
+    margin-top: 11px;
+  }
+
+  .links {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  a {
+    margin: 0 7.5px;
+  }
+
+  .socialLinks {
+    display: none;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .logo {
+    margin-top: 278px;
+  }
+
+  .socialLinks {
+    margin-top: 280px;
+  }
+}
+
+/*Tablet horizontal*/
+@media (min-width: 1024px) and (min-height:768px) {
+  .logo {
+    margin-top: 150px;
+  }
+
+  .socialLinks {
+    margin-top: 152px;
+  }
+}
+
+/*Iphone 5S*/
+@media (max-width: 320px) {
+  #container {
+    background-color: #FFB64E;
+  }
+
+  .logo {
+    margin-top: 50px;
+  }
+
+  .btn {
+    border: 2px solid white;
+  }
+
+  .btn:hover {
+    background-color: #FA9401;
+    transition: 500ms;
+    border: 2px solid #444242;
+  }
+
+  .socialLinks {
+    margin-top: 52px;
+  }
+}
+
+/*Iphone horizontal*/
+@media (max-height:320px) {
+  #container {
+    background-color: #FFB64E;
+  }
+
+  .logo {
+    margin-top: 11px;
+  }
+
+  .btn {
+    border: 2px solid white;
+  }
+
+  .btn:hover {
+    background-color: #FA9401;
+    transition: 500ms;
+    border: 2px solid #444242;
+  }
+
+  .links {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  a {
+    margin: 0 7.5px;
+  }
+
+  .socialLinks {
+    display: none;
+  }
+}
